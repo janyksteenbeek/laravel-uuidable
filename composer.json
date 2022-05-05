@@ -1,0 +1,21 @@
+{
+    "name": "janyksteenbeek/laravel-uuidable",
+    "description": "Adding the ability to use UUIDs as identifiers on models in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Janyk\\LaravelUuidable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Janyk Steenbeek",
+            "email": "laravel-uuidable@janyk.dev"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^7|^8|^9",
+        "ramsey/uuid": "^4.3"
+    }
+}
